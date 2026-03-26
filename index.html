@@ -44,7 +44,7 @@
             backdrop-filter: blur(8px);
             border-bottom: 1px solid var(--color-border);
             z-index: 100;
-            padding: 1rem 2rem;
+            padding: 0.75rem 2rem;
         }
 
         nav .nav-inner {
@@ -56,10 +56,14 @@
         }
 
         nav .logo {
-            font-weight: 700;
-            font-size: 1.1rem;
-            color: var(--color-text);
+            display: flex;
+            align-items: center;
             text-decoration: none;
+        }
+
+        nav .logo img {
+            height: 44px;
+            width: auto;
         }
 
         nav .nav-link {
@@ -90,8 +94,15 @@
 
         /* Hero */
         .hero {
-            padding: 10rem 2rem 6rem;
+            padding: 8rem 2rem 4rem;
             text-align: center;
+        }
+
+        .hero-logo {
+            max-width: 550px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 1.5rem;
         }
 
         .hero h1 {
@@ -309,7 +320,7 @@
 
     <nav>
         <div class="nav-inner">
-            <a href="#" class="logo">Avrio Consulting</a>
+            <a href="#" class="logo"><img src="logo_A.png" alt="Avrio Consulting"></a>
             <div class="nav-links">
                 <a href="#services" class="nav-link">Services</a>
                 <a href="#why" class="nav-link">Why Avrio</a>
@@ -320,6 +331,7 @@
 
     <section class="hero">
         <div class="container">
+            <img src="logo.png" alt="Avrio Consulting" class="hero-logo">
             <h1>Practical AI &amp; Software Solutions<br>That Deliver Real Business Value</h1>
             <p>I help growing businesses use modern software and AI to solve real problems — clearly, practically, and without unnecessary complexity.</p>
             <a href="#contact" class="btn">Start a Conversation</a>
