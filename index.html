@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avrio Consulting — Practical AI & Software Solutions</title>
-    <meta name="description" content="Avrio Consulting helps growing businesses use modern software and AI to solve real problems — clearly, practically, and without unnecessary complexity.">
+    <meta name="description" content="Production AI systems — multi-agent architectures, RAG, LLM-powered features live with real users — built on 20 years of full-stack engineering. Practical AI and software for growing businesses.">
     <style>
         *, *::before, *::after {
             box-sizing: border-box;
@@ -219,11 +219,40 @@
             line-height: 1.6;
         }
 
-        /* Why */
-        .why {
+        /* Track record */
+        .track {
             background: var(--color-surface);
         }
 
+        .track h2 {
+            font-size: 2rem;
+            margin-bottom: 2.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .records {
+            display: grid;
+            gap: 1.25rem;
+        }
+
+        .record {
+            background: var(--color-bg);
+            border-radius: 8px;
+            border-left: 3px solid var(--color-accent);
+            padding: 1.5rem 1.75rem;
+        }
+
+        .record h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .record p {
+            color: var(--color-text-secondary);
+            font-size: 0.98rem;
+        }
+
+        /* Why */
         .why h2 {
             font-size: 2rem;
             margin-bottom: 2.5rem;
@@ -268,14 +297,16 @@
             margin-right: auto;
         }
 
-        .contact .email-link {
-            font-size: 1.15rem;
+        .contact .linkedin-link {
+            display: inline-block;
+            margin-top: 1.5rem;
+            font-size: 1rem;
             color: var(--color-accent);
             text-decoration: none;
             font-weight: 600;
         }
 
-        .contact .email-link:hover {
+        .contact .linkedin-link:hover {
             text-decoration: underline;
         }
 
@@ -323,6 +354,7 @@
             <a href="#" class="logo"><img src="logo_A.png" alt="Avrio Consulting"></a>
             <div class="nav-links">
                 <a href="#services" class="nav-link">Services</a>
+                <a href="#track-record" class="nav-link">Track Record</a>
                 <a href="#why" class="nav-link">Why Avrio</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </div>
@@ -333,7 +365,7 @@
         <div class="container">
             <img src="logo.png" alt="Avrio Consulting" class="hero-logo">
             <h1>Practical AI &amp; Software Solutions<br>That Deliver Real Business Value</h1>
-            <p>I help growing businesses use modern software and AI to solve real problems — clearly, practically, and without unnecessary complexity.</p>
+            <p>I build production AI systems — multi-agent architectures, RAG, LLM-powered features that are live with real users — on top of 20 years of full-stack engineering. If you want AI that ships instead of AI that's discussed, that's what I do.</p>
             <a href="#contact" class="btn">Start a Conversation</a>
         </div>
     </section>
@@ -363,12 +395,32 @@
                 <div class="pillar">
                     <div class="pillar-number">02</div>
                     <h3>Build Modern Systems</h3>
-                    <p>Web applications, APIs, backend systems, internal tools, and data-driven platforms. Built with modern technologies like React and TypeScript — fast, reliable, and maintainable.</p>
+                    <p>Web applications, APIs, backend systems, internal tools, and data-driven platforms. Modern stack — React, TypeScript, Node.js, Next.js — on engineering foundations that go deep: C#/.NET and serious SQL (PostgreSQL, SQL Server, Oracle). Fast, reliable, maintainable.</p>
                 </div>
                 <div class="pillar">
                     <div class="pillar-number">03</div>
                     <h3>Apply AI Strategically</h3>
-                    <p>LLM integrations, RAG systems, AI agents, and AI-powered workflows. I implement AI only where it creates real, measurable value — not because it's trendy.</p>
+                    <p>LLM integrations, RAG systems, AI agents, and AI-powered workflows — the same systems I've built and shipped to production, not slideware. I implement AI only where it creates real, measurable value.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="track" id="track-record">
+        <div class="container">
+            <h2>Shipped, Not Promised</h2>
+            <div class="records">
+                <div class="record">
+                    <h3>Production AI systems — this past year</h3>
+                    <p>Designed and built the agent system behind an AI-native learning platform — a concierge agent routing to specialized agents, a database-driven agent framework, RAG over AWS Bedrock Knowledge Bases — and stood up an AI customer-support assistant that handles real customer inquiries every day inside a live two-sided marketplace.</p>
+                </div>
+                <div class="record">
+                    <h3>13+ years powering electric utilities</h3>
+                    <p>Grid analytics processing data from hundreds of thousands of smart meters in near real time; an outage-detection system rebuilt from unusable to trusted for day-to-day operations; workflow systems managing 15,000+ grid assets — for utilities across Canada and the US.</p>
+                </div>
+                <div class="record">
+                    <h3>Enterprise-grade foundations</h3>
+                    <p>Consulting roots at Deloitte and Accenture; fourteen years independent, delivering end-to-end — requirements through architecture, code, deployment, and production support.</p>
                 </div>
             </div>
         </div>
@@ -380,7 +432,7 @@
             <div class="reasons">
                 <div class="reason">
                     <h3>20+ Years of Experience</h3>
-                    <p>Deep expertise across software engineering, architecture, and consulting — from enterprise to startup.</p>
+                    <p>Deep, hands-on expertise across software engineering, architecture, and consulting — Deloitte and Accenture trained, enterprise to startup.</p>
                 </div>
                 <div class="reason">
                     <h3>Business-First Thinking</h3>
@@ -402,6 +454,10 @@
                     <h3>Flexible Engagement</h3>
                     <p>Hourly or project-based, embedded in your workflow. Focused on outcomes, not overhead.</p>
                 </div>
+                <div class="reason">
+                    <h3>AI-First Delivery Speed</h3>
+                    <p>I build with AI-assisted development every day. It's a large part of why I can join a messy, in-flight project and ship within the first week.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -409,8 +465,9 @@
     <section class="contact" id="contact">
         <div class="container">
             <h2>Let's Talk</h2>
-            <p>Have a project in mind, a process that needs fixing, or just want to explore what's possible? Send me an email and let's start the conversation.</p>
+            <p>Have a project in mind, a process that needs fixing, or just want to explore what's possible? Send me an email — or find me on LinkedIn.</p>
             <a href="mailto:info@avrioconsulting.com" class="btn">info@avrioconsulting.com</a>
+            <div><a href="https://www.linkedin.com/in/kosta-karagiannis" class="linkedin-link" target="_blank" rel="noopener">linkedin.com/in/kosta-karagiannis</a></div>
         </div>
     </section>
 
